@@ -7,4 +7,3 @@ it('displays an empty title', () => {
   cy.get('h2')
     .should('be.empty');
 })
-}) 
