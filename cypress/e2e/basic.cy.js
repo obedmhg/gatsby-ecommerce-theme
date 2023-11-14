@@ -3,8 +3,8 @@ describe('sample render test', () => {
     cy.visit('/')
   })
 
-  it('displays the title text', () => {
-    cy.get('h2')
-    .contains('');
-  })
+it('displays an empty title', () => {
+  cy.get('h2')
+    .should('be.empty');
+})
 }) 
